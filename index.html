@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATV condicional</title>
+    <title>Lista de nomes</title>
 </head>
 <body>
-    <ul id="lista">
-        <form id="formulario">
-            <label for="texto">Digite aqui!</label>
-            <input type="text">
-            <button type="submit">Enter</button>
-        </form>
-    </ul>
+    <form id="formulario">
+        <label for="texto">Digite um nome:</label>
+        <input type="text" id="texto" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista"></ul>
+
     <script src="main.js"></script>
 </body>
 </html>
